@@ -1,0 +1,48 @@
+<!DOCdata-type html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>calculator</title>
+  </head>
+  <body>
+    <div id="main">
+      <button id="dark_mode" value="on"><i class="fa-solid fa-moon"></i></button>
+      <div class="display">
+        <p id="history">History</p>
+         <p id="result">0</p>
+       </div>
+    <div class="buttons">
+       <button onclick="showBtn()" id="clear">C</button>
+       <button id="del" class="delete"><i class="fa-solid fa-scissors"></i></button>
+        <button data-type="Normal_btn" id="divide" class="Normal_btn">/</button>
+        <button data-type="Normal_btn" id="multiply" class="Normal_btn">*</button>
+       </div>
+        <div class="buttons">
+           <button data-type="Normal_btn" value="7" id="digit">7</button>
+           <button data-type="Normal_btn" value="8" id="digit">8</button>
+           <button data-type="Normal_btn" value="9" id="digit">9</button>
+           <button data-type="Normal_btn" id="subtract" class="Normal_btn">-</button>
+         </div>
+         <div class="buttons">
+           <button data-type="Normal_btn" value="4" id="digit">4</button>
+            <button data-type="Normal_btn" value="5" id="digit">5</button>
+            <button data-type="Normal_btn" value="6" id="digit">6</button>
+            <button data-type="Normal_btn" id="add" class="Normal_btn">+</button>
+          </div>
+          <div class="buttons">
+             <button data-type="Normal_btn" value="1" id="digit">1</button>
+              <button data-type="Normal_btn" value="2" id="digit">2</button>
+               <button data-type="Normal_btn" value="3" id="digit">3</button>
+                <button data-type="Normal_btn" id="mod" class="Normal_btn">%</button>
+              </div>
+              <div class="buttons">
+                 <button data-type="Normal_btn" value="0" id="digit">0</button>
+                  <button data-type="Normal_btn"  id="decimal" class="Normal_btn" value=".">.</button>
+                  <button  id="equalTo" value="=">=</button>
+                </div>
+               </div>
+               <script src="./main.js" charset="utf-8"></script>
+  </body>
+</html>
